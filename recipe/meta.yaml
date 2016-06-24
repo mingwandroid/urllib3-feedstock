@@ -8,7 +8,7 @@ source:
   url: https://pypi.io/packages/source/u/urllib3/urllib3-{{ version }}.tar.gz
   sha256: 63d479478ddfc83bbc11577dc16d47835c5179ac13e550118ca143b62c4bf9ab
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
