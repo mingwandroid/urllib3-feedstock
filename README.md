@@ -3,13 +3,25 @@ About urllib3
 
 Home: https://urllib3.readthedocs.io/
 
-Package license: MIT License
+Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
 Summary: HTTP library with thread-safe connection pooling, file post, and more.
 
 
+
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/urllib3-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/urllib3-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/urllib3-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/urllib3-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/urllib3-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/urllib3-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/urllib3/badges/version.svg)](https://anaconda.org/conda-forge/urllib3)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/urllib3/badges/downloads.svg)](https://anaconda.org/conda-forge/urllib3)
 
 Installing urllib3
 ==================
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `urllib3` available on your platfo
 ```
 conda search urllib3 --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/urllib3-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/urllib3-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/urllib3-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/urllib3-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/urllib3-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/urllib3-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/urllib3/badges/version.svg)](https://anaconda.org/conda-forge/urllib3)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/urllib3/badges/downloads.svg)](https://anaconda.org/conda-forge/urllib3)
 
 
 Updating urllib3-feedstock
